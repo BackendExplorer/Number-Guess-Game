@@ -1,11 +1,11 @@
-# number-guess-game
+# Number Guess Game
 
 ![Python](https://img.shields.io/badge/Python-blue)
 ![Docker](https://img.shields.io/badge/Container-Docker-2496ED?logo=docker&logoColor=white)
 ![Docker Compose](https://img.shields.io/badge/Orchestration-Docker_Compose-2496ED?logo=docker&logoColor=white)
 
 
-### Number Guess Game
+### 数字を推測するゲーム
 
 
 <br>
@@ -14,7 +14,7 @@
 
 
 
-### 数字を推測するゲーム
+### 最小数と最大数を入力し、その中でランダムに選択される数字を選ぶデモ画像
 
 <br>
 
