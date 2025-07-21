@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  guess-game:
+    build: .
+    # 対話的シェルで入るための設定
+    stdin_open: true  # -i 相当
+    tty: true         # -t 相当
+
+    # 開発中はホスト側のコードをリアルタイム反映
+    volumes:
+      - ./:/app
+
+    working_dir: /app
+
+    # コンテナ起動後は無限に待機させておく
+    command: ["tail", "-f", "/dev/null"]
+
+    environment:
+      # Pythonをアンバッファードモードに
+      - PYTHONUNBUFFERED=1
