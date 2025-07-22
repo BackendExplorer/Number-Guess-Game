@@ -26,7 +26,7 @@ def main():
         b'hard  (Input : 2)\n'
         b'Input : '
     )
-    sys.stdout.buffer.write = sys.stdout.buffer.write  # flush呼び出しのために残しています
+
     sys.stdout.buffer.flush()
     select_mode = int(sys.stdin.buffer.readline())
 
